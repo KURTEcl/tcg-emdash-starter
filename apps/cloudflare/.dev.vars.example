@@ -1,0 +1,2 @@
+# Generate a unique encryption key with: pnpm exec emdash secrets generate
+EMDASH_ENCRYPTION_KEY=

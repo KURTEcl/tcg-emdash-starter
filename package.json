@@ -1,0 +1,11 @@
+{
+  "name": "tcg-emdash-starter",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --recursive build",
+    "typecheck": "pnpm --recursive typecheck",
+    "dev:node": "pnpm --filter @tcg-emdash/starter-node dev",
+    "dev:cloudflare": "pnpm --filter @tcg-emdash/starter-cloudflare dev"
+  },
+  "packageManager": "pnpm@11.9.0"
+}
