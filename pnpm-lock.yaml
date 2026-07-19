@@ -58,7 +58,7 @@ importers:
         version: 0.2.0(emdash@0.28.1(@astrojs/react@6.0.1(@types/node@26.1.1)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(esbuild@0.28.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(yaml@2.9.0))(@atcute/identity@2.0.2(@atcute/lexicons@2.0.3)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.28.0(@tiptap/core@3.28.0(@tiptap/pm@3.28.0))(@tiptap/pm@3.28.0))(@tiptap/pm@3.28.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(astro@7.1.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.1)(yaml@2.9.0))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3))
       '@tcg-emdash/plugin-pokemon-decklists':
         specifier: github:KURTEcl/tcg-emdash-plugins#path:packages/pokemon-decklists
-        version: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/6dddbcdbf077fe1a2457624f7bc30110a6302db4#path:packages/pokemon-decklists(c9126f589c53fd8755123030e190af51)
+        version: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/47efb8ea42a233f356edc1ace7c186d8f9192c8a#path:packages/pokemon-decklists(c9126f589c53fd8755123030e190af51)
       '@tcg-emdash/plugin-theme-settings':
         specifier: github:KURTEcl/tcg-emdash-plugins#path:packages/theme-settings
         version: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/6dddbcdbf077fe1a2457624f7bc30110a6302db4#path:packages/theme-settings(59593c3cb517ac93737643b031129a75)
@@ -1482,9 +1482,9 @@ packages:
   '@tanstack/store@0.9.3':
     resolution: {integrity: sha512-8reSzl/qGWGGVKhBoxXPMWzATSbZLZFWhwBAFO9NAyp0TxzfBP0mIrGb8CP8KrQTmvzXlR/vFPPUrHTLBGyFyw==}
 
-  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/6dddbcdbf077fe1a2457624f7bc30110a6302db4#path:packages/pokemon-decklists':
-    resolution: {gitHosted: true, path: packages/pokemon-decklists, tarball: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/6dddbcdbf077fe1a2457624f7bc30110a6302db4}
-    version: 0.7.0
+  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/47efb8ea42a233f356edc1ace7c186d8f9192c8a#path:packages/pokemon-decklists':
+    resolution: {gitHosted: true, integrity: sha512-peicU9sA2a4yfQF1diss4BG1ECcVFQF4McKlBnd/rRxXyYdtEoXQvsZ7J9vTQaY3efyIiVvp25GaMAjqvj0ktQ==, path: packages/pokemon-decklists, tarball: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/47efb8ea42a233f356edc1ace7c186d8f9192c8a}
+    version: 0.8.0
     peerDependencies:
       '@emdash-cms/admin': '>=0.28.0'
       '@emdash-cms/blocks': '>=0.28.0'
@@ -5253,7 +5253,7 @@ snapshots:
 
   '@tanstack/store@0.9.3': {}
 
-  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/6dddbcdbf077fe1a2457624f7bc30110a6302db4#path:packages/pokemon-decklists(c9126f589c53fd8755123030e190af51)':
+  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/47efb8ea42a233f356edc1ace7c186d8f9192c8a#path:packages/pokemon-decklists(c9126f589c53fd8755123030e190af51)':
     dependencies:
       '@emdash-cms/admin': 0.28.1(@atcute/identity@2.0.2(@atcute/lexicons@2.0.3)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.28.0(@tiptap/core@3.28.0(@tiptap/pm@3.28.0))(@tiptap/pm@3.28.0))(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)(zod@4.4.3)
       '@emdash-cms/blocks': 0.28.1(@date-fns/tz@1.5.0)(@types/react@19.2.17)(date-fns@4.4.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.4.3)
