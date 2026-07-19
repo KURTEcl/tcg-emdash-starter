@@ -1,6 +1,8 @@
 import node from "@astrojs/node";
 import react from "@astrojs/react";
 import auditLog from "@emdash-cms/plugin-audit-log";
+import { pokemonDecklistsPlugin } from "@tcg-emdash/plugin-pokemon-decklists";
+import { themeSettingsPlugin } from "@tcg-emdash/plugin-theme-settings";
 import { defineConfig, fontProviders, passthroughImageService } from "astro/config";
 import emdash, { local } from "emdash/astro";
 import { sqlite } from "emdash/db";
@@ -41,7 +43,7 @@ export default defineConfig({
 				directory: "./uploads",
 				baseUrl: "/_emdash/api/media/file",
 			}),
-			plugins: [auditLog],
+			plugins: [auditLog, themeSettingsPlugin(), pokemonDecklistsPlugin()],
 		}),
 	],
 	fonts: [

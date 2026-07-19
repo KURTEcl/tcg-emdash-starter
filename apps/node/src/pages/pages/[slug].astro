@@ -2,6 +2,10 @@
 import { getEmDashEntry, decodeSlug } from "emdash";
 import { PortableText } from "emdash/ui";
 import Base from "../../layouts/Base.astro";
+import DecklistBlock from "@tcg-emdash/plugin-pokemon-decklists/DecklistBlock.astro";
+import ArchetypeDecklistsBlock from "@tcg-emdash/plugin-pokemon-decklists/ArchetypeDecklistsBlock.astro";
+import PokemonCardBlock from "@tcg-emdash/plugin-pokemon-decklists/PokemonCardBlock.astro";
+import PokemonCardGalleryBlock from "@tcg-emdash/plugin-pokemon-decklists/PokemonCardGalleryBlock.astro";
 
 const slug = decodeSlug(Astro.params.slug);
 
@@ -28,7 +32,17 @@ if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
 		</header>
 
 		<div class="page-content">
-			<PortableText value={page.data.content} />
+			<PortableText
+				value={page.data.content}
+				components={{
+					type: {
+						pokemonDecklist: DecklistBlock,
+						pokemonArchetypeDecklists: ArchetypeDecklistsBlock,
+						pokemonCard: PokemonCardBlock,
+						pokemonCardGallery: PokemonCardGalleryBlock,
+					},
+				}}
+			/>
 		</div>
 	</article>
 </Base>

@@ -18,6 +18,8 @@
     "@astrojs/node": "^11.0.0",
     "@astrojs/react": "^6.0.0",
     "@emdash-cms/plugin-audit-log": "^0.2.0",
+    "@tcg-emdash/plugin-pokemon-decklists": "github:KURTEcl/tcg-emdash-plugins#path:packages/pokemon-decklists",
+    "@tcg-emdash/plugin-theme-settings": "github:KURTEcl/tcg-emdash-plugins#path:packages/theme-settings",
     "astro": "^7.0.0",
     "better-sqlite3": "^12.8.0",
     "emdash": "^0.28.1",

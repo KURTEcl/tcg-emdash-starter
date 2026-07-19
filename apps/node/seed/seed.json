@@ -138,13 +138,18 @@
 				},
 				{
 					"type": "custom",
-					"label": "About",
-					"url": "/pages/about"
+					"label": "Posts",
+					"url": "/posts"
 				},
 				{
 					"type": "custom",
-					"label": "Posts",
-					"url": "/posts"
+					"label": "Decklists",
+					"url": "/decklists"
+				},
+				{
+					"type": "custom",
+					"label": "Resultados",
+					"url": "/results"
 				}
 			]
 		}

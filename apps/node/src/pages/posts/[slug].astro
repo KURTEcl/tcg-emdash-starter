@@ -18,6 +18,10 @@ import Base from "../../layouts/Base.astro";
 import PostCard from "../../components/PostCard.astro";
 import { getReadingTime } from "../../utils/reading-time";
 import { resolveBlogSiteIdentity } from "../../utils/site-identity";
+import DecklistBlock from "@tcg-emdash/plugin-pokemon-decklists/DecklistBlock.astro";
+import ArchetypeDecklistsBlock from "@tcg-emdash/plugin-pokemon-decklists/ArchetypeDecklistsBlock.astro";
+import PokemonCardBlock from "@tcg-emdash/plugin-pokemon-decklists/PokemonCardBlock.astro";
+import PokemonCardGalleryBlock from "@tcg-emdash/plugin-pokemon-decklists/PokemonCardGalleryBlock.astro";
 
 const slug = decodeSlug(Astro.params.slug);
 
@@ -227,7 +231,17 @@ const publishDate =
 				</header>
 
 				<div class="article-content">
-					<PortableText value={post.data.content} />
+					<PortableText
+						value={post.data.content}
+						components={{
+							type: {
+								pokemonDecklist: DecklistBlock,
+								pokemonArchetypeDecklists: ArchetypeDecklistsBlock,
+								pokemonCard: PokemonCardBlock,
+								pokemonCardGallery: PokemonCardGalleryBlock,
+							},
+						}}
+					/>
 				</div>
 
 				<div class="article-comments">
