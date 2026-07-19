@@ -1,5 +1,9 @@
 This is an EmDash site -- a CMS built on Astro with a full admin UI.
 
+## Required TCG plugins
+
+This starter **requires** both `@tcg-emdash/plugin-theme-settings` and `@tcg-emdash/plugin-pokemon-decklists` (from [tcg-emdash-plugins](https://github.com/KURTEcl/tcg-emdash-plugins)). They are not optional. Without them registered in `astro.config.mjs` → `emdash({ plugins })`, decklists, results, Apariencia, and TCG Portable Text blocks do not work. Never remove or skip them.
+
 ## Commands
 
 ```bash
