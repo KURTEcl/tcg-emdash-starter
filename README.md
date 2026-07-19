@@ -2,12 +2,14 @@
 
 Base open source para crear un blog o sitio de jugador TCG con [EmDash](https://emdashcms.com) + Astro.
 
+Hoy el stack de decklists, arquetipos y resultados está pensado para **Pokémon TCG**. Se ampliará a otros TCG (p. ej. One Piece, Riftbound) con el mismo patrón de plugins.
+
 Demo en producción: [tcg.kurte.cl](https://tcg.kurte.cl)  
 Plugins (obligatorios): [tcg-emdash-plugins](https://github.com/KURTEcl/tcg-emdash-plugins)
 
 ## Plugins TCG — obligatorios
 
-Este starter **no es un blog EmDash genérico**. Sin los plugins TCG el producto no está completo: faltan decklists, arquetipos, resultados, Apariencia y los bloques Portable Text del stack TCG.
+Este starter **no es un blog EmDash genérico**. Sin los plugins TCG el producto no está completo: faltan decklists Pokémon, arquetipos, resultados, Apariencia y los bloques Portable Text del stack TCG.
 
 | Plugin | Paquete | Rol |
 | --- | --- | --- |
@@ -140,12 +142,6 @@ Objetivo: dejar un blog EmDash **TCG** corriendo en local (Node) con plugins TCG
 | Bloque PT no renderiza | mapa `components.type` en la página que usa `<PortableText />` |
 | Estilos viejos en HMR | recarga dura o CSS global compartido |
 | Build prod falla con `link:` | en prod usar `github:KURTEcl/tcg-emdash-plugins#path:packages/…` |
-
----
-
-## Estado
-
-Starter usable **solo con** los plugins TCG instalados y registrados. El esquema y la lógica TCG viven en [tcg-emdash-plugins](https://github.com/KURTEcl/tcg-emdash-plugins); el starter los consume siempre.
 
 ## Licencia
 

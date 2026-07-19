@@ -58,10 +58,10 @@ importers:
         version: 0.2.0(emdash@0.28.1(@astrojs/react@6.0.1(@types/node@26.1.1)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(esbuild@0.28.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(yaml@2.9.0))(@atcute/identity@2.0.2(@atcute/lexicons@2.0.3)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.28.0(@tiptap/core@3.28.0(@tiptap/pm@3.28.0))(@tiptap/pm@3.28.0))(@tiptap/pm@3.28.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(astro@7.1.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.1)(yaml@2.9.0))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3))
       '@tcg-emdash/plugin-pokemon-decklists':
         specifier: github:KURTEcl/tcg-emdash-plugins#path:packages/pokemon-decklists
-        version: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee#path:packages/pokemon-decklists(e67cc5f4b72ce159af0fb3159a0d8548)
+        version: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda#path:packages/pokemon-decklists(e67cc5f4b72ce159af0fb3159a0d8548)
       '@tcg-emdash/plugin-theme-settings':
         specifier: github:KURTEcl/tcg-emdash-plugins#path:packages/theme-settings
-        version: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee#path:packages/theme-settings(a9a04538c537848ecc55641530f5263f)
+        version: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda#path:packages/theme-settings(a9a04538c537848ecc55641530f5263f)
       astro:
         specifier: ^7.0.0
         version: 7.1.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.1)(yaml@2.9.0)
@@ -1482,9 +1482,9 @@ packages:
   '@tanstack/store@0.9.3':
     resolution: {integrity: sha512-8reSzl/qGWGGVKhBoxXPMWzATSbZLZFWhwBAFO9NAyp0TxzfBP0mIrGb8CP8KrQTmvzXlR/vFPPUrHTLBGyFyw==}
 
-  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee#path:packages/pokemon-decklists':
-    resolution: {gitHosted: true, integrity: sha512-snlXf2xiA7SGP8FHUecv9awh/WkXFsAydr7Dp7FtqXfop8cZk9XPU8CgtBOvRCqdUCTcwuHLsMg8+UOue8EyZA==, path: packages/pokemon-decklists, tarball: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee}
-    version: 0.8.7
+  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda#path:packages/pokemon-decklists':
+    resolution: {gitHosted: true, integrity: sha512-v5gD6WZi5UpRPO6D0Sbhqaf6P14rw3rigp3owKB385qH7eJSJ3twB1dbraTGLz0QdM+vszDqQm7yEJmC6iMiiw==, path: packages/pokemon-decklists, tarball: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda}
+    version: 0.8.10
     peerDependencies:
       '@cloudflare/kumo': '>=2.6.0'
       '@emdash-cms/admin': '>=0.28.0'
@@ -1494,8 +1494,8 @@ packages:
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@tcg-emdash/plugin-theme-settings@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee#path:packages/theme-settings':
-    resolution: {gitHosted: true, integrity: sha512-snlXf2xiA7SGP8FHUecv9awh/WkXFsAydr7Dp7FtqXfop8cZk9XPU8CgtBOvRCqdUCTcwuHLsMg8+UOue8EyZA==, path: packages/theme-settings, tarball: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee}
+  '@tcg-emdash/plugin-theme-settings@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda#path:packages/theme-settings':
+    resolution: {gitHosted: true, integrity: sha512-v5gD6WZi5UpRPO6D0Sbhqaf6P14rw3rigp3owKB385qH7eJSJ3twB1dbraTGLz0QdM+vszDqQm7yEJmC6iMiiw==, path: packages/theme-settings, tarball: https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda}
     version: 0.2.1
     peerDependencies:
       '@cloudflare/kumo': '>=2.6.0'
@@ -5255,7 +5255,7 @@ snapshots:
 
   '@tanstack/store@0.9.3': {}
 
-  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee#path:packages/pokemon-decklists(e67cc5f4b72ce159af0fb3159a0d8548)':
+  '@tcg-emdash/plugin-pokemon-decklists@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda#path:packages/pokemon-decklists(e67cc5f4b72ce159af0fb3159a0d8548)':
     dependencies:
       '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.17)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.4.3)
       '@emdash-cms/admin': 0.28.1(@atcute/identity@2.0.2(@atcute/lexicons@2.0.3)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.28.0(@tiptap/core@3.28.0(@tiptap/pm@3.28.0))(@tiptap/pm@3.28.0))(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)(zod@4.4.3)
@@ -5265,7 +5265,7 @@ snapshots:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@tcg-emdash/plugin-theme-settings@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/9de69d7bcaeea10f1bf0e08b8f438b7dd93549ee#path:packages/theme-settings(a9a04538c537848ecc55641530f5263f)':
+  '@tcg-emdash/plugin-theme-settings@https://codeload.github.com/KURTEcl/tcg-emdash-plugins/tar.gz/d25b859c56ac443c38da4153c4c216eecacf3dda#path:packages/theme-settings(a9a04538c537848ecc55641530f5263f)':
     dependencies:
       '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.17)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.4.3)
       '@emdash-cms/admin': 0.28.1(@atcute/identity@2.0.2(@atcute/lexicons@2.0.3)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.28.0(@tiptap/core@3.28.0(@tiptap/pm@3.28.0))(@tiptap/pm@3.28.0))(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@6.0.3)(zod@4.4.3)
